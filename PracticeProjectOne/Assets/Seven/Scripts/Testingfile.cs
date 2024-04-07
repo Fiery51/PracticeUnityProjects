@@ -2,9 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
-public class PlayerMovement : MonoBehaviour
+public class Testingfile : MonoBehaviour
 {
     public Rigidbody2D playerRb;
     public bool onGround = false;
@@ -12,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 horizontal;
     public float movePower = 1.0f;
     public float jumpPower = 100f;
-
+    
     void Start()
     {
         horizontal = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
